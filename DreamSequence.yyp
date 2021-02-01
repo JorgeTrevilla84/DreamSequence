@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"bg_spr_forest_a7","path":"sprites/bg_spr_forest_a7/bg_spr_forest_a7.yy",},"order":6,},
     {"id":{"name":"PlayerAnimateSprite","path":"scripts/PlayerAnimateSprite/PlayerAnimateSprite.yy",},"order":0,},
     {"id":{"name":"spr_grass","path":"sprites/spr_grass/spr_grass.yy",},"order":0,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":2,},
@@ -7,9 +8,12 @@
     {"id":{"name":"PlayerCollision","path":"scripts/PlayerCollision/PlayerCollision.yy",},"order":2,},
     {"id":{"name":"spr_player_run","path":"sprites/spr_player_run/spr_player_run.yy",},"order":4,},
     {"id":{"name":"spr_tree_01","path":"sprites/spr_tree_01/spr_tree_01.yy",},"order":1,},
+    {"id":{"name":"bg_spr_forest_b7","path":"sprites/bg_spr_forest_b7/bg_spr_forest_b7.yy",},"order":8,},
+    {"id":{"name":"bg_spr_forest_a8","path":"sprites/bg_spr_forest_a8/bg_spr_forest_a8.yy",},"order":7,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":2,},
     {"id":{"name":"tset_collision","path":"tilesets/tset_collision/tset_collision.yy",},"order":0,},
     {"id":{"name":"spr_collision","path":"sprites/spr_collision/spr_collision.yy",},"order":5,},
+    {"id":{"name":"bg_spr_forest_b8","path":"sprites/bg_spr_forest_b8/bg_spr_forest_b8.yy",},"order":9,},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":1,},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
