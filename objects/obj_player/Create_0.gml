@@ -8,3 +8,5 @@ speedWalk = 1.25;
 spriteRun = spr_player_run;
 spriteIdle = spr_4way_placeholder;
 localFrame = 0;	//Tells what frame in the sprite animation
+
+gamepad_set_axis_deadzone(0,0.3);

@@ -1,8 +1,9 @@
 //Get player input
-keyLeft = keyboard_check(vk_left) or keyboard_check(ord("A"));
-keyRight = keyboard_check(vk_right) or keyboard_check(ord("D"));
-keyUp = keyboard_check(vk_up) or keyboard_check(ord("W"));
-keyDown = keyboard_check(vk_down) or keyboard_check(ord("S"));
+keyLeft = keyboard_check(ord("A")) or (gamepad_axis_value(0, gp_axislh) < 0);
+keyRight = keyboard_check(ord("D")) or (gamepad_axis_value(0, gp_axislh) > 0);
+keyUp = keyboard_check(ord("W")) or (gamepad_axis_value(0, gp_axislv) < 0);
+keyDown = keyboard_check(ord("S")) or (gamepad_axis_value(0, gp_axislv) > 0);
+
 keyActivate = keyboard_check_pressed(vk_space);
 keyAttack = keyboard_check_pressed(vk_shift);
 keyItem = keyboard_check_pressed(vk_control);
