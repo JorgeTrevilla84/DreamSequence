@@ -1,4 +1,4 @@
-//Mainp player variables
+//Main player variables
 
 state = PlayerStateFree;
 
@@ -11,10 +11,10 @@ speedWalk = 1.50;
 speedDash = 3;
 distanceDash = 52;
 
-
+//Update this with the correct anim
 spriteDash = spr_4way_dash_placeholder_strip4;
 spriteRun = spr_player_run;
-spriteIdle = spr_4way_placeholder;
+spriteIdle = spr_player;
 localFrame = 0;	//Tells what frame in the sprite animation
 
 gamepad_set_axis_deadzone(0,0.3);

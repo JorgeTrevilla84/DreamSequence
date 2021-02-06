@@ -5,6 +5,7 @@ function PlayerStateDash(){
 	vSpeed = lengthdir_y(speedDash, direction);
 	
 	moveDistanceRemaining = max(0, moveDistanceRemaining - speedDash);
+	
 	var _collided = PlayerCollision();
 	
 	//Update Sprite using the cardinal direction

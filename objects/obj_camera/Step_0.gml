@@ -1,3 +1,5 @@
+//Follow player
+
 x +=  (xTo - x)/25;
 y +=  (yTo - y)/25;
 
