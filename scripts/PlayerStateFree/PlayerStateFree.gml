@@ -9,7 +9,7 @@ function PlayerStateFree(){
 	//Update Sprite Index
 	var _old_sprite = sprite_index;
 
-	if (inputMagnitude != 0){	//if we are moving apply direction from input and update sprite index
+	if (inputMagnitude != 0){	//If we are moving apply direction from input and update sprite index
 		direction = inputDirection;
 		sprite_index = spriteRun;
 	} else sprite_index = spriteIdle;
@@ -20,7 +20,7 @@ function PlayerStateFree(){
 	
 	//Change State
 	if (keyActivate){
-		state = PlayerStateDash;
-		moveDistanceRemaining = distanceDash	//No parenthesis to refere to the script itself
+		state = PlayerStateDash; //No parenthesis to refer to the script itself
+		moveDistanceRemaining = distanceDash	
 	}
 }

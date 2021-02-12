@@ -1,15 +1,15 @@
-camera = camera_create();
+/// @desc Camera Setup
+// Docs: https://www.youtube.com/watch?v=0dcfqH4aSBw&list=PLPRT_JORnIuosvhfax2TQTEmN7OYTcSvK&index=6
 
-var view_matrix = matrix_build_lookat(x,y,-10,x,y,0,0,1,0);
-var projection_matrix = matrix_build_projection_ortho(640,360,1,10000);//Game Resolution is set in here
-
-camera_set_view_mat(camera, view_matrix);
-camera_set_proj_mat(camera, projection_matrix);
-
-view_camera[0] = camera;
-
+cam = view_camera[0];
 follow = obj_player;
+view_width_half = camera_get_view_width(cam) * 0.5;
+view_height_half = camera_get_view_height(cam) * 0.5;
 
-xTo = x;
-yTo = y;
+xTo = xstart;
+yTo = ystart;
+
+shake_length = 0;
+shake_magnitude = 0;
+shake_remain = 0;
 
