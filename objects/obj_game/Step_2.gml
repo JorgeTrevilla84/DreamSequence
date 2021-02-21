@@ -8,7 +8,7 @@ if (keyboard_check_pressed(vk_escape)){
 			gamePausedImageSpeed = image_speed;
 			image_speed = 0;
 		}
-	}else{
+	} else {
 		
 		with (all){
 			image_speed =  gamePausedImageSpeed;

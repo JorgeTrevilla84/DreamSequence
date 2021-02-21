@@ -8,7 +8,7 @@ image_speed = 0;
 hSpeed = 0;
 vSpeed = 0;
 speedWalk = 1.50;
-speedDash = 3;
+speedDash = 6;
 distanceDash = 52;
 
 //Update this with the correct anim
