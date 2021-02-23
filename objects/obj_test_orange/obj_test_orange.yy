@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_test_sprite",
-    "path": "sprites/spr_test_sprite/spr_test_sprite.yy",
+    "name": "spr_orange",
+    "path": "sprites/spr_orange/spr_orange.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_parent_textbox",
+    "path": "objects/obj_parent_textbox/obj_parent_textbox.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -21,8 +24,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"test_obj","path":"objects/test_obj/test_obj.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"test_obj","path":"objects/test_obj/test_obj.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_test_orange","path":"objects/obj_test_orange/obj_test_orange.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +33,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "test_obj",
+  "name": "obj_test_orange",
   "tags": [],
   "resourceType": "GMObject",
 }

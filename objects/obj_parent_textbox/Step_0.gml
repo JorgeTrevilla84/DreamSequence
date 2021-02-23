@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Creates textbox
 
 //If textbox has not been created yet, make one
 if(place_meeting(x,y, obj_player)){

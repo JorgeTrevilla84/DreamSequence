@@ -2,7 +2,7 @@
 
 _page = 0;
 
-_text = "Default Textbox, this is an error";
+_text = "Default text, this is an error";
 
 _x_buffer = 10;
 
