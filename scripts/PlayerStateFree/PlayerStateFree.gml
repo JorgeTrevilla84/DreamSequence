@@ -3,7 +3,7 @@ function PlayerStateFree(){
 	//Movement
 	hSpeed = lengthdir_x(inputMagnitude * speedWalk, inputDirection);
 	vSpeed = lengthdir_y(inputMagnitude * speedWalk, inputDirection);
-
+	
 	PlayerCollision();
 
 	//Update Sprite Index
@@ -22,5 +22,8 @@ function PlayerStateFree(){
 	if (keyActivate){
 		state = PlayerStateDash; //No parenthesis to refer to the script itself
 		moveDistanceRemaining = distanceDash	
+	}
+	if (global.playerLocked) {
+		state = PlayerStateLocked;
 	}
 }

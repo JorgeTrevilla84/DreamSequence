@@ -17,6 +17,4 @@ _text_part = string_copy(_text[_page], 1, _character_count);
 draw_set_halign(fa_center);
 draw_text(x+_box_width/2,y, _name_tag);
 draw_set_halign(fa_left);
-
-
 draw_text_ext(x+_x_buffer, y+_string_height+_y_buffer, _text_part, _string_height, _box_width);
