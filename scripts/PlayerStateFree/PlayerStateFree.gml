@@ -8,8 +8,8 @@ function PlayerStateFree(){
 
 	//Update Sprite Index
 	var _old_sprite = sprite_index;
-
-	if (inputMagnitude != 0){	//If we are moving apply direction from input and update sprite index
+	//If we are moving apply direction from input and update sprite index
+	if (inputMagnitude != 0){
 		direction = inputDirection;
 		sprite_index = spriteRun;
 	} else sprite_index = spriteIdle;

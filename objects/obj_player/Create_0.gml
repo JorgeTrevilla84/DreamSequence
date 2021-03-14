@@ -10,8 +10,6 @@ vSpeed = 0;
 speedWalk = 1.50;
 speedDash = 6;
 distanceDash = 52;
-
-//Update this with the correct anim
 spriteDash = spr_4way_dash_placeholder_strip4;
 spriteRun = spr_player_run;
 spriteIdle = spr_player;

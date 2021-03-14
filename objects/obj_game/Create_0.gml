@@ -11,3 +11,4 @@ global.playerLocked = false;
 
 room_goto(ROOM_START);
 audio_play_sound(mus_ambient_modular_01, 1, true);
+

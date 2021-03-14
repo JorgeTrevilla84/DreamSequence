@@ -1,8 +1,9 @@
 /// @description Insert description here
 //draw_text(20, 60, "Number of characters" + string(_character_count));
 
-gui_space_x = 115;
-gui_space_y = 230;
+// GUI position
+gui_space_x = 250;
+gui_space_y = 400;
 draw_sprite(spr_textbox, 0, gui_space_x, gui_space_y);
 
 //Draw text

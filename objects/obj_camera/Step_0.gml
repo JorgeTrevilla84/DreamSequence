@@ -30,7 +30,7 @@ if (obj_player.keyZoom) {
 
 var view_w = camera_get_view_width(cam);
 var view_h = camera_get_view_height(cam);
-show_debug_message("zoom level" + string(zoom_level));
+//show_debug_message("zoom level" + string(zoom_level));
 
 //Set the rate of interpolation for Zoom
 var rate = 0.1;
