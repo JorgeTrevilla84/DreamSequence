@@ -303,9 +303,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"275562f0-d686-488d-acdf-b545876f53d7","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "MISC",
+    "path": "folders/Sprites/MISC.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_anim_tree",

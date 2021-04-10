@@ -21,7 +21,7 @@ shake_remain = max(0, shake_remain - ((1/shake_length) * shake_magnitude));
 //Zoom functionality
 //zoom_level = clamp(zoom_level + (((mouse_wheel_down()-mouse_wheel_up()))*0.1), 0.1, 5);
 if (obj_player.keyZoom) {
-    zoom_level = 4;// code here
+    zoom_level = 2;// code here
 	global.playerLocked = true;
 } else {
 	zoom_level = 1;
@@ -30,7 +30,6 @@ if (obj_player.keyZoom) {
 
 var view_w = camera_get_view_width(cam);
 var view_h = camera_get_view_height(cam);
-//show_debug_message("zoom level" + string(zoom_level));
 
 //Set the rate of interpolation for Zoom
 var rate = 0.1;

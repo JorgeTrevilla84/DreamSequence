@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"85284c87-52a2-44ef-a7aa-620f1ae2665b","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "MISC",
+    "path": "folders/Sprites/MISC.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_placeholder_tileset",

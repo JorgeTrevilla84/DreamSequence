@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f7e48c4e-be0e-4f61-8d8c-276384c06805","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "MISC",
+    "path": "folders/Sprites/MISC.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_apple",

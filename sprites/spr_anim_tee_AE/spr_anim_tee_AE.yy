@@ -77,7 +77,7 @@
     "spriteId": {"name":"spr_anim_tee_AE","path":"sprites/spr_anim_tee_AE/spr_anim_tee_AE.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 8.0,
+    "playbackSpeed": 6.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -127,9 +127,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"859376dd-60ea-4b10-9b2c-9dbbed836f74","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "MISC",
+    "path": "folders/Sprites/MISC.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_anim_tee_AE",

@@ -1,5 +1,5 @@
 {
-  "bboxMode": 1,
+  "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
   "origin": 7,
@@ -7,8 +7,8 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_left": 9,
+  "bbox_right": 22,
   "bbox_top": 0,
   "bbox_bottom": 31,
   "HTile": false,
@@ -192,8 +192,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e56ac593-4c43-42e3-8782-8dc2cc65fcac","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "PLAYER",
+    "path": "folders/Sprites/PLAYER.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_4way_dash_placeholder_strip4",

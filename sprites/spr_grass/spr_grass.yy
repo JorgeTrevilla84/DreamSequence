@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"238e6529-dbfa-463b-9925-edc86e39812b","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "MISC",
+    "path": "folders/Sprites/MISC.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_grass",
