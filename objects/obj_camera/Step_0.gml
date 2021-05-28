@@ -20,12 +20,22 @@ shake_remain = max(0, shake_remain - ((1/shake_length) * shake_magnitude));
 
 //Zoom functionality
 //zoom_level = clamp(zoom_level + (((mouse_wheel_down()-mouse_wheel_up()))*0.1), 0.1, 5);
+
 if (obj_player.keyZoom) {
     zoom_level = 2;// code here
+	if (audio_is_playing(snd__zoom_out) == false){
+		audio_play_sound(snd__zoom_out, 10, false);
+		show_debug_message("audio played zoom out");
+	}
 	global.playerLocked = true;
+	
 } else {
 	zoom_level = 1;
 	global.playerLocked = false;
+	if (audio_is_playing(snd__zoom_out) == true && audio_is_playing(snd__zoom_reset) == false){
+		audio_play_sound(snd__zoom_reset, 10, false);
+		show_debug_message("audio played zoom out reset");	
+	}
 }
 
 var view_w = camera_get_view_width(cam);
