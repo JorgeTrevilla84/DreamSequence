@@ -14,6 +14,7 @@ draw_set_font(fnt_text);
 //typewriter effect
 if (_character_count < string_length(_text[_page])){
 	_character_count += 1;
+	audio_play_sound(snd_click, 1, false);
 }
 _text_part = string_copy(_text[_page], 1, _character_count);
 
